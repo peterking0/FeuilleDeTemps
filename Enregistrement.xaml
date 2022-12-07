@@ -1,0 +1,42 @@
+﻿<Window x:Class="FeuilleDeTemps.Enregistrement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FeuilleDeTemps"
+        mc:Ignorable="d"
+        Title="Enregistrement" Height="450" Width="800">
+    <Grid Margin="0,0,0,-61">
+        <Label Content="Numero Employes" HorizontalAlignment="Left" Margin="64,67,0,0" VerticalAlignment="Top"/>
+        <Label Content="Feuille Enregistrement des Employes" HorizontalAlignment="Left" Margin="315,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,2.505"/>
+        <Label Content="Nom et Prenom" HorizontalAlignment="Left" Margin="64,116,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,1.928"/>
+        <Label Content="Lundi" HorizontalAlignment="Left" Margin="91,173,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,6.935"/>
+        <TextBox x:Name="txtnumero" HorizontalAlignment="Left" Margin="196,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtnom" HorizontalAlignment="Left" Margin="196,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtcodeLundi" HorizontalAlignment="Left" Margin="196,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22"/>
+        <Button x:Name="btnregistrement1" Content="Enregistrer" HorizontalAlignment="Left" Margin="625,368,0,0" VerticalAlignment="Top" Height="41" Width="87" Click="btnEnregistrement_Click" RenderTransformOrigin="0.253,1.245"/>
+        <TextBox x:Name="txtprojetLundi" HorizontalAlignment="Left" Margin="326,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="49" RenderTransformOrigin="1.125,2.007" Height="22"/>
+        <Label Content="Codes Projets" HorizontalAlignment="Left" Margin="177,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,6.935"/>
+        <Label Content="Minutes" HorizontalAlignment="Left" Margin="322,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,6.935"/>
+        <TextBox x:Name="txtcodeMardi" HorizontalAlignment="Left" Margin="196,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22" RenderTransformOrigin="0.659,1.729"/>
+        <TextBox x:Name="txtcodeMercredi" HorizontalAlignment="Left" Margin="196,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22" RenderTransformOrigin="0.886,0.82"/>
+        <TextBox x:Name="txtcodejeudi" HorizontalAlignment="Left" Margin="196,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22" RenderTransformOrigin="0.659,2.184"/>
+        <TextBox x:Name="txtProjetMardi" HorizontalAlignment="Left" Margin="328,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22" RenderTransformOrigin="1.455,1.502"/>
+        <TextBox x:Name="txtProjetMercredi" HorizontalAlignment="Left" Margin="331,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22" RenderTransformOrigin="0.114,0.32"/>
+        <TextBox x:Name="txtProjetJeudi" HorizontalAlignment="Left" Margin="331,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22" RenderTransformOrigin="0.659,1.502"/>
+        <TextBox x:Name="txtProjetvendredi" HorizontalAlignment="Left" Margin="331,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22" RenderTransformOrigin="0.545,1.502"/>
+        <TextBox x:Name="txtcodeVendredi" HorizontalAlignment="Left" Margin="196,373,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22" RenderTransformOrigin="0.545,1.729"/>
+        <TextBox x:Name="txtcodeSamedi" HorizontalAlignment="Left" Margin="496,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22" RenderTransformOrigin="1.159,0.456"/>
+        <TextBox x:Name="txtcodeDimanche" HorizontalAlignment="Left" Margin="499,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22"/>
+        <TextBox x:Name="txtProjetSamedi" HorizontalAlignment="Left" Margin="593,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22" RenderTransformOrigin="1.227,0.456"/>
+        <TextBox x:Name="txtProjetDimanche" HorizontalAlignment="Left" Margin="593,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" Height="22" RenderTransformOrigin="0.705,1.138"/>
+        <Label Content="Mardi" HorizontalAlignment="Left" Margin="91,222,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,6.935"/>
+        <Label Content="Mercredi" HorizontalAlignment="Left" Margin="82,273,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,6.935"/>
+        <Label Content="Jeudi" HorizontalAlignment="Left" Margin="95,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,6.935"/>
+        <Label Content="Vendredi" HorizontalAlignment="Left" Margin="84,373,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,6.935"/>
+        <Label Content="Samedi" HorizontalAlignment="Left" Margin="425,170,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,6.935"/>
+        <Label Content="Dimanche" HorizontalAlignment="Left" Margin="418,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,6.935"/>
+        <Label Content="Codes Projets" HorizontalAlignment="Left" Margin="458,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,6.935"/>
+        <Label Content="Minutes" HorizontalAlignment="Left" Margin="589,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,6.935"/>
+    </Grid>
+</Window>

@@ -1,0 +1,30 @@
+﻿<Window x:Class="FeuilleDeTemps.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FeuilleDeTemps"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Label Content="Numero Employes" HorizontalAlignment="Left" Margin="50,74,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nom" HorizontalAlignment="Left" Margin="50,148,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,0.579"/>
+        <Label Content="Prenom" HorizontalAlignment="Left" Margin="50,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,0.579"/>
+        <Label Content="Jours" HorizontalAlignment="Left" Margin="50,282,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtnumero" HorizontalAlignment="Left" Margin="195,78,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtprenom" HorizontalAlignment="Left" Margin="195,221,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,2.619"/>
+        <TextBox x:Name="txtjours" HorizontalAlignment="Left" Margin="195,289,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,2.007" Height="21">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+            </TextB
+        <TextBox x:Name="txtnom" HorizontalAlignment="Left" Margin="195,156,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.458,2.953"/>
+            <Label Content="Enregistrement Des Enployes" HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top"/> ox>
+
+    </Grid>
+</Window>
